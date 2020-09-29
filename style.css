@@ -1,0 +1,79 @@
+:root{
+
+}
+
+main{
+  display: flex;
+}
+section{
+  padding: 1em;
+}
+body{
+  min-height: 100vh;
+}
+
+.main-body{
+  display: flex;
+  justify-content: space-around;
+}
+
+.border{
+  border: solid black;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.fit-content{
+  height: auto;
+  width: fit-content;
+}
+
+.image-container{
+  justify-content: center;
+}
+
+.image-box{
+  background-color: blue;
+  height: 5em;
+  color: white;
+}
+
+.text-center{
+  display: flex;
+  justify-content: center;
+}
+
+.max-width{
+  max-width: 10vw;
+}
+
+.pd-t{
+  padding-top: 1em;
+}
+.pd-r{
+  padding-right: 1em;
+}
+.pd-b{
+  padding-bottom: 1em;
+}
+.pd-l{
+  padding-left: 1em;
+}
+.pd-left{
+  padding-left: 6em;
+}
+.mg-t{
+  margin-top: 1em;
+}
+.mg-r{
+  margin-right: 1em;
+}
+.mg-b{
+  margin-bottom: 1em;
+}
+.mg-l{
+  margin-left: 1em;
+}
